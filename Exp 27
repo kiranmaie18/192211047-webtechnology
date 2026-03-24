@@ -1,0 +1,13 @@
+<%@ page language="java" %>
+<html>
+<body>
+
+<%! int count = 0; %>
+
+<%
+count++;
+out.println("Number of Visitors: " + count);
+%>
+
+</body>
+</html>

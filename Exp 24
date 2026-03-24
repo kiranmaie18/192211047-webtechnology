@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Date and Time</h2>
+<p id="time"></p>
+
+<script>
+setInterval(function(){
+    document.getElementById("time").innerHTML = new Date();
+},1000);
+</script>
+
+</body>
+</html>

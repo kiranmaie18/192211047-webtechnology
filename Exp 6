@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>External CSS Example</h2>
+<div class="box">This is styled using class selector</div>
+
+</body>
+</html>
+
+.box {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}

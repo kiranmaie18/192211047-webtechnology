@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nearest Odd</title>
+</head>
+<body>
+
+<h2>Find Nearest Odd Number</h2>
+<button onclick="findOdd()">Click</button>
+<p id="result"></p>
+
+<script>
+function findOdd() {
+    let num = parseInt(prompt("Enter a number:"));
+
+    if (isNaN(num)) {
+        alert("Enter valid number");
+        return;
+    }
+
+    if (num % 2 === 0) {
+        document.getElementById("result").innerHTML =
+        "Nearest Odd Number: " + (num + 1);
+    } else {
+        document.getElementById("result").innerHTML =
+        "Already an Odd Number: " + num;
+    }
+}
+</script>
+
+</body>
+</html>

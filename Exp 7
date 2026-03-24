@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    float: left;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    float: left;
+    margin-left: -70px;
+}
+</style>
+</head>
+<body>
+
+<h2>Float Position Example</h2>
+<div class="box1"></div>
+<div class="box2"></div>
+
+</body>
+</html>

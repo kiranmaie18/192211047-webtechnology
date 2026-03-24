@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background: #f0f0f0;
+}
+form {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+}
+input, select {
+    width: 100%;
+    margin: 5px;
+}
+</style>
+</head>
+
+<body>
+<form>
+<h2>Employee Registration</h2>
+
+<input type="text" placeholder="Employee Name">
+<input type="text" placeholder="Employee ID">
+<input type="text" placeholder="Address">
+<input type="text" placeholder="Department">
+<input type="text" placeholder="Mobile Number">
+
+<select>
+    <option>Select City</option>
+    <option>Chennai</option>
+    <option>Bangalore</option>
+    <option>Mumbai</option>
+</select>
+
+<input type="submit">
+</form>
+</body>
+</html>

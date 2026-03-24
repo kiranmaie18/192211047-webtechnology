@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Number Object Operations</h2>
+<p id="output"></p>
+
+<script>
+let num = 12.45678;
+let result = "";
+
+result += "Exponential: " + Math.exp(2) + "<br>";
+result += "Fixed (2 decimals): " + num.toFixed(2) + "<br>";
+result += "Number to String: " + num.toString() + "<br>";
+result += "Negative Infinity: " + Number.NEGATIVE_INFINITY;
+
+document.getElementById("output").innerHTML = result;
+</script>
+
+</body>
+</html>

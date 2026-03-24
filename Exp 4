@@ -1,0 +1,31 @@
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+public class StudentServlet extends HttpServlet {
+
+    protected void doPost(HttpServletRequest request,
+                          HttpServletResponse response)
+                          throws IOException {
+
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        String name = request.getParameter("name");
+        String roll = request.getParameter("roll");
+        String dept = request.getParameter("dept");
+
+        out.println("<html><body>");
+        out.println("<h2>Student Registration Details</h2>");
+        out.println("Name: " + name + "<br>");
+        out.println("Roll No: " + roll + "<br>");
+        out.println("Department: " + dept);
+        out.println("</body></html>");
+    }
+}
+<form action="StudentServlet" method="post">
+    Name: <input type="text" name="name"><br>
+    Roll: <input type="text" name="roll"><br>
+    Department: <input type="text" name="dept"><br>
+    <input type="submit">
+</form>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("pattern.jpg");
+    background-repeat: repeat-x;
+}
+</style>
+</head>
+<body>
+<h2>Background Repeat Example</h2>
+</body>
+</html>

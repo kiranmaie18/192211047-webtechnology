@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="output"></p>
+
+<script>
+let s = "Hello";
+
+let text = "";
+text += "CharAt(1): " + s.charAt(1) + "<br>";
+text += "CharCodeAt(1): " + s.charCodeAt(1) + "<br>";
+text += "Concat: " + s.concat(" World") + "<br>";
+text += "FromCharCode(65): " + String.fromCharCode(65) + "<br>";
+text += "Uppercase: " + s.toUpperCase();
+
+document.getElementById("output").innerHTML = text;
+</script>
+
+</body>
+</html>

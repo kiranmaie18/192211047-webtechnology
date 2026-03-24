@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h2>Job Portal</h2>
+<div class="card">
+    <h3>Software Developer</h3>
+    <button>Apply Now</button>
+</div>
+
+</body>
+</html>
